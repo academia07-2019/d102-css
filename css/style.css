@@ -22,3 +22,15 @@ nav{
     height: 50px;
     justify-content: space-around;
 }
+section{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section img{
+    height: 250px;
+}
+section img:nth-child(3):hover{
+    width: 100%;
+}
